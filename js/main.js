@@ -28,6 +28,22 @@ modalClose.addEventListener('click', closeModal);
 
 // sroll smooth
 
+// {
+// 	const scrollLinks = document.querySelectorAll('a.sсroll-link');
+
+// 	console.log(scrollLinks)
+// 	for (let i = 0; i < scrollLinks.length; i++) {
+// 		scrollLinks[i].addEventListener('click', function(event) {
+// 			event.preventDefault();
+// 			const id = scrollLinks[i].getAttribute('href');
+// 			document.querySelector(id).scrollIntoView({
+// 				behavior: 'smooth',
+// 				block: 'start',
+// 			})
+// 		});
+// 	}
+// }
+
 {
 	const scrollLinks = document.querySelectorAll('a.scroll-link');
   
